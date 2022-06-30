@@ -1,11 +1,8 @@
 # ninja log v5
-1	586	6783267171665975	CMakeFiles/class_manipulations_cpp.dir/main.cpp.obj	e10c6ba3fc878760
-588	980	6783267175568100	class_manipulations_cpp.exe	d6f8b0f7d744d370
-11	361	6783268296302060	CMakeFiles/class_manipulations_cpp.dir/main.cpp.obj	e10c6ba3fc878760
-362	483	6783268297492978	class_manipulations_cpp.exe	d6f8b0f7d744d370
-3	425	6783272774842844	CMakeFiles/class_manipulations_cpp.dir/main.cpp.obj	e10c6ba3fc878760
-425	563	6783272776187917	class_manipulations_cpp.exe	d6f8b0f7d744d370
-3	470	6783289553728755	CMakeFiles/class_manipulations_cpp.dir/main.cpp.obj	e10c6ba3fc878760
-470	713	6783289556136376	class_manipulations_cpp.exe	d6f8b0f7d744d370
-3	666	6783300298733900	CMakeFiles/class_manipulations_cpp.dir/main.cpp.obj	e10c6ba3fc878760
-667	945	6783300301494240	class_manipulations_cpp.exe	d6f8b0f7d744d370
+16	84	6783331175888227	CMakeFiles/class_manipulations_cpp.dir/services/ems.cpp.obj	2541feb1e1637d34
+3	485	6783330490651784	CMakeFiles/class_manipulations_cpp.dir/services/UserServiceImp.cpp.obj	dccfc26a0cc6714a
+3	535	6783335538214244	CMakeFiles/class_manipulations_cpp.dir/main.cpp.obj	e10c6ba3fc878760
+536	658	6783335539423725	class_manipulations_cpp.exe	bc1d3fd2d67c44c4
+1	321	6783340726539075	build.ninja	a77922c2d3d2d868
+23	827	6783329166420553	CMakeFiles/class_manipulations_cpp.dir/utils/models.cpp.obj	8470a6086d7f3a3b
+7	548	6783334464410424	CMakeFiles/class_manipulations_cpp.dir/services/user-service.cpp.obj	946ace261226e0af
