@@ -7,8 +7,10 @@ class AbstractEmployee{
 
 class Employee: AbstractEmployee{
 private:
-    string firstName;
     int age;
+protected:
+    string firstName;
+
 public:
     Employee(string firstName, int age){
         this->firstName = firstName;
@@ -26,6 +28,9 @@ public:
     int getAge(){
         return this->age;
     }
+    virtual void work(){
+        cout << "Employee is working in the office" << endl;
+    }
 
     void print(){
         cout << "First Name: " << this->getFirstName() << endl;
@@ -41,11 +46,30 @@ public:
 
 };
 
+class Developer: public Employee{
+private:
+    string language;
+public:
+    Developer(string firstName, int age, string language): Employee(firstName, age){
+        this->language = language;
+    }
+    void fixBug(){
+        cout << firstName<<" FIXED THE BUG USING "<<language << endl;
+    }
+    void work(){
+        cout << "Developer is working in the office" << endl;
+    }
+};
+
 int main() {
-    Employee employee = Employee("Kobsh", 20);
-    employee.setAge(10);
-    employee.print();
-    employee.askForSalary();
+    Employee employee = Employee("Shallon", 20);
+//    employee.setAge(10);
+//    employee.print();
+//    employee.askForSalary();
+    Developer developer = Developer("Shallon", 20, "Javascript");
+    developer.fixBug();
+    Employee* employeePtr = &developer;
+    employeePtr->work();
 
     return 0;
 }
