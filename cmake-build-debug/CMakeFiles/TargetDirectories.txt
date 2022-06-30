@@ -1,0 +1,3 @@
+C:/Users/kobsh/Documents/YEAR2/DSA/PREPS/class-manipulations-cpp/cmake-build-debug/CMakeFiles/class_manipulations_cpp.dir
+C:/Users/kobsh/Documents/YEAR2/DSA/PREPS/class-manipulations-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kobsh/Documents/YEAR2/DSA/PREPS/class-manipulations-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
